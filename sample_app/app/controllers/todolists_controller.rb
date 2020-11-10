@@ -35,6 +35,8 @@ class TodolistsController < ApplicationController
     redirect_to todolist_path(list.id)
   end
 
+  
+
   private
   # ストロングパラメータ
   def list_params
